@@ -126,8 +126,10 @@
   {
     "command": "workbench.action.terminal.rename",
     "key": "ctrl+shift+r",
-    "when": "terminalFocus"
+    "when": "terminalFocus || terminalEditorFocus"
   },
+  { "key": "ctrl+shift+r", "command": "-editor.action.refactor", "when": "terminalEditorFocus" },
+  { "key": "ctrl+shift+r", "command": "-editor.action.refactor", "when": "terminalFocus" },
   {
     "key": "ctrl+k ctrl+z",
     "command": "workbench.action.toggleZenMode"
@@ -187,6 +189,21 @@
     "key": "ctrl+alt+`",
     "command": "workbench.action.terminal.newWithProfile"
   },
+
+  //   { "key": "alt+1", "command": "workbench.action.openEditorAtIndex1", "when": "terminalEditorFocus" },
+  // { "key": "alt+2", "command": "workbench.action.openEditorAtIndex2", "when": "terminalEditorFocus" },
+  // { "key": "alt+3", "command": "workbench.action.openEditorAtIndex3", "when": "terminalEditorFocus" },
+  // { "key": "alt+4", "command": "workbench.action.openEditorAtIndex4", "when": "terminalEditorFocus" },
+  // { "key": "alt+5", "command": "workbench.action.openEditorAtIndex5", "when": "terminalEditorFocus" },
+  { "key": "ctrl+shift+alt+left",  "command": "workbench.action.moveEditorToPreviousGroup" },
+  { "key": "ctrl+shift+alt+right", "command": "workbench.action.moveEditorToNextGroup" },
+  { "key": "ctrl+alt+shift+down", "command": "workbench.action.unpinEditor", "when": "activeEditorIsPinned" },
+  { "key": "ctrl+alt+shift+up", "command": "workbench.action.pinEditor",   "when": "!activeEditorIsPinned" },
+{ "key": "alt+[", "command": "workbench.action.previousEditor" },
+{ "key": "alt+]", "command": "workbench.action.nextEditor" },
+
+{ "key": "alt+shift+[", "command": "workbench.action.moveEditorLeftInGroup" },
+{ "key": "alt+shift+]", "command": "workbench.action.moveEditorRightInGroup" },
   {
     "key": "alt+1",
     "command": "workbench.action.terminal.focusAtIndex1",
@@ -286,10 +303,6 @@
     "when": "accessibleViewIsShown && accessibleViewSupportsNavigation"
   },
   {
-    "key": "alt+]",
-    "command": "editor.action.inlineSuggest.showNext"
-  },
-  {
     "key": "ctrl+d",
     "command": "-list.focusPageDown",
     "when": "listFocus && !inputFocus"
@@ -307,5 +320,10 @@
   {
     "key": "ctrl+alt+e",
     "command": "continue.continueGUIView.focus"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-extension.vim_ctrl+w",
+    "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
   }
 ]

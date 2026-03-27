@@ -37,55 +37,6 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true
   },
-  "autoCommentNextLine.list": [
-    {
-      "char": "//",
-      "languages": [
-        "php",
-        "javascript",
-        "typescript",
-        "jsonc",
-        "scss",
-        "sass",
-        "json",
-        "vue",
-        "markdown",
-        "javascriptreact",
-        "typescriptreact",
-        "go"
-      ]
-    },
-    {
-      "char": "#",
-      "languages": [
-        "python",
-        "ruby"
-      ]
-    }
-  ],
-  "browser-preview.format": "png",
-  "cSpell.userWords": [
-    "Dgraph",
-    "Hudoklin",
-    "Jaka",
-    "Truder",
-    "codespaces",
-    "cookiecutter",
-    "devcontainer",
-    "devcontainers",
-    "direnv",
-    "dotfiles",
-    "grpc",
-    "mkdir",
-    "nixos",
-    "nixpkgs",
-    "offlinehacker",
-    "postgres",
-    "protos",
-    "untrusted",
-    "usermod",
-    "xtruder"
-  ],
   "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
   "dart.flutterHotReloadOnSave": "always",
@@ -135,6 +86,10 @@
   "gitlens.defaultDateStyle": "absolute",
   "gitlens.hovers.currentLine.over": "line",
   "go.useLanguageServer": true,
+  "go.toolsManagement.autoUpdate": true,
+  "gopls": {
+    "ui.navigation.importShortcut": "Definition"
+  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "macros": {
     "quickOpenWithWordUnderCursor": [
@@ -162,69 +117,33 @@
   "python.linting.mypyEnabled": true,
   "python.linting.pylintEnabled": false,
   "python.testing.autoTestDiscoverOnSaveEnabled": true,
-  "redhat.telemetry.enabled": true,
+  "redhat.telemetry.enabled": false,
   "rewrap.autoWrap.enabled": true,
   "remote.SSH.defaultExtensions": [
     "EditorConfig.EditorConfig",
     "redhat.vscode-yaml",
     "reduckted.vscode-gitweblinks"
   ],
-  "settingsSync.ignoredExtensions": [
-    "bbenoist.nix",
-    "redhat.ansible",
-    "graphql.vscode-graphql",
-    "knisterpeter.vscode-github",
-    "ms-toolsai.jupyter",
-    "kumar-harsh.graphql-for-vscode",
-    "arrterian.nix-env-selector",
-    "ms-toolsai.jupyter-keymap",
-    "ms-toolsai.vscode-jupyter-cell-tags",
-    "searking.preview-vscode",
-    "mkhl.direnv",
-    "rubymaniac.vscode-direnv",
-    "ms-python.vscode-pylance",
-    "ms-python.python",
-    "marcostazi.vs-code-vagrantfile",
-    "ph-hawkins.arc-plus",
-    "graphql.vscode-graphql-syntax",
-    "ms-python.isort",
-    "golang.go",
-    "ms-vscode.cpptools",
-    "exodiusstudios.comment-anchors",
-    "antfu.vite",
-    "voorjaar.windicss-intellisense",
-    "tht13.rst-vscode",
-    "ms-toolsai.vscode-jupyter-slideshow",
-    "ms-toolsai.jupyter-renderers",
-    "ms-azuretools.vscode-docker",
-    "llvm-vs-code-extensions.vscode-clangd",
-    "ctf0.auto-comment-next-line",
-    "github.copilot-labs",
-    "jeff-hykin.macro-commander",
-    "jnoortheen.nix-ide",
-    "seongmock.go-file-undercursor",
-    "editorconfig.editorconfig",
-    "ms-python.black-formatter",
-    "ms-python.mypy-type-checker",
-    "bradlc.vscode-tailwindcss",
-    "tabbyml.vscode-tabby",
-    "antfu.browse-lite",
-    "github.copilot",
-    "github.copilot-chat",
-    "snyk-security.snyk-vulnerability-scanner",
-    "ms-vscode.cmake-tools"
-  ],
-  "settingsSync.ignoredSettings": [
-    "-dotfiles.repository",
-    "-remote.containers.dotfiles.repository"
-  ],
-  "snyk.advanced.cliPath": "/home/offlinehq/.local/share/snyk-ls/snyk-linux-arm64",
-  "snyk.trustedFolders": [
-    "/home/code/Code/linear-tracing"
+  "dev.containers.defaultExtensions": [
+    "EditorConfig.EditorConfig",
+    "redhat.vscode-yaml",
+    "reduckted.vscode-gitweblinks"
   ],
   "terminal.integrated.commandsToSkipShell": [
     "workbench.action.toggleSidebarVisibility"
+    "workbench.action.openEditorAtIndex1",
+    "workbench.action.openEditorAtIndex2",
+    "workbench.action.openEditorAtIndex3",
+    "workbench.action.openEditorAtIndex4",
+    "workbench.action.openEditorAtIndex5",
+    "workbench.action.moveEditorToPreviousGroup"
+    "workbench.action.moveEditorToNextGroup",
+    "workbench.action.pinEditor",
+    "workbench.action.unpinEditor",
+    "workbench.action.terminal.rename"
   ],
+  "terminal.integrated.allowChords": true,
+  "terminal.integrated.sendKeybindingsToShell": false,
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.fontFamily": "Consolas, monospace",
   "terminal.integrated.fontSize": 15,
@@ -233,9 +152,9 @@
   "terminal.integrated.tabs.enableAnimation": false,
   "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.suggest.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "update.mode": "none",
-  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
   "window.confirmBeforeClose": "always",
   "window.menuBarVisibility": "hidden",
   "window.restoreWindows": "none",
@@ -244,7 +163,7 @@
     "*.ipynb": "jupyter.notebook.ipynb"
   },
   "workbench.iconTheme": "vscode-great-icons",
-  "window.autoDetectColorScheme": false, // not working on linux
+  "window.autoDetectColorScheme": true,
   "window.autoDetectHighContrast": true,
   "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
   "workbench.preferredLightColorTheme": "Adwaita Light",
@@ -258,39 +177,10 @@
   "snyk.yesWelcomeNotification": false,
   "editor.codeActionWidget.includeNearbyQuickFixes": true,
   "workbench.activityBar.location": "top",
-  "go.toolsManagement.autoUpdate": true,
-  "gopls": {
-    "ui.navigation.importShortcut": "Definition"
-},
-  "python.analysis.extraPaths": [
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.6.0-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.6.3-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.6.15-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.6.17-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.7.58-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.7.63-linux-x64"
-  ],
-  "python.autoComplete.extraPaths": [
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.6.0-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.6.3-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.6.15-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.6.17-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.7.58-linux-x64",
-    "/home/offlinehq/.vscode/extensions/continue.continue-0.7.63-linux-x64"
-  ],
   "editor.occurrencesHighlight": "multiFile",
-  "dev.containers.defaultExtensions": [
-    "EditorConfig.EditorConfig",
-    "redhat.vscode-yaml",
-    "reduckted.vscode-gitweblinks"
-  ],
   "workbench.tree.enableStickyScroll": true,
   "multiDiffEditor.experimental.enabled": true,
   "diffEditor.codeLens": true,
-  "tabby.keybindings": "tabby-style",
-  "tabby.inlineCompletion.triggerMode": "automatic",
-  "continue.telemetryEnabled": false,
-  "continue.enableTabAutocomplete": false,
   "cmake.allowUnsupportedPresetsVersions": true,
   "cmake.configureOnOpen": false,
   "cmake.showOptionsMovedNotification": false,
@@ -301,6 +191,8 @@
     "/": true
   },
   "extensions.experimental.deferredStartupFinishedActivation": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.preventPinnedEditorClose": "never",
   "cmake.pinnedCommands": [
     "workbench.action.tasks.configureTaskRunner",
     "workbench.action.tasks.runTask"
@@ -309,8 +201,6 @@
     "CC": "/usr/bin/clang",
     "CXX": "/usr/bin/clang++"
   },
-  "remote.SSH.useLocalServer": false,
-  "remote.SSH.useExecServer": false,
   "remote.SSH.remotePlatform": {
     "1": "linux",
     "2": "linux",
