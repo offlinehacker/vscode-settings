@@ -1,0 +1,102 @@
+builtin:
+  disabled:
+    - ms-vscode.js-debug
+    - ms-vscode.vscode-js-profile-table
+    - vscode.configuration-editing
+    - vscode.css-language-features
+    - vscode.debug-auto-launch
+    - vscode.debug-server-ready
+    - vscode.emmet
+    - vscode.extension-editing
+    - vscode.git
+    - vscode.git-base
+    - vscode.github
+    - vscode.grunt
+    - vscode.gulp
+    - vscode.html-language-features
+    - vscode.ipynb
+    - vscode.jake
+    - vscode.json-language-features
+    - vscode.markdown-language-features
+    - vscode.markdown-math
+    - vscode.merge-conflict
+    - vscode.mermaid-chat-features
+    - vscode.npm
+    - vscode.php-language-features
+    - vscode.references-view
+    - vscode.search-result
+    - vscode.terminal-suggest
+    - vscode.tunnel-forwarding
+    - vscode.typescript-language-features
+disabled:
+  - id: antfu.vite
+    uuid: b22eea9f-5a30-43a2-8a59-3d3707869cf8
+  - id: EditorConfig.EditorConfig
+    uuid: 00000000-0000-0000-0000-000000000000
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
+  - id: GitHub.copilot-chat
+    uuid: 00000000-0000-0000-0000-000000000000
+  - id: golang.go
+    uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: jeff-hykin.macro-commander
+    uuid: ad57b969-8483-4a6b-97f4-927e74ffe1b2
+  - id: jnoortheen.nix-ide
+    uuid: 0ffebccd-4265-4f2d-a855-db1adcf278c7
+  - id: ms-python.debugpy
+    uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
+  - id: ms-python.python
+    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-python.vscode-pylance
+    uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
+  - id: ms-python.vscode-python-envs
+    uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
+  - id: ms-toolsai.jupyter
+    uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
+  - id: ms-toolsai.jupyter-renderers
+    uuid: b15c72f8-d5fe-421a-a4f7-27ed9f6addbf
+  - id: ms-toolsai.vscode-jupyter-cell-tags
+    uuid: ab4fb32a-befb-4102-adf9-1652d0cd6a5e
+  - id: ms-toolsai.vscode-jupyter-slideshow
+    uuid: e153ca70-b543-4865-b4c5-b31d34185948
+  - id: ms-vscode.cpptools
+    uuid: 690b692e-e8a9-493f-b802-8089d50ac1b2
+  - id: ms-vsliveshare.vsliveshare
+    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
+  - id: mushan.vscode-paste-image
+    uuid: ffaf4ec8-f001-4f02-b671-705ecf079cde
+  - id: redhat.vscode-yaml
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: reduckted.vscode-gitweblinks
+    uuid: fae95695-f600-489f-afdf-69190f660249
+  - id: searKing.preview-vscode
+    uuid: 03e014a0-a915-4672-92b3-77e5a6ad72df
+  - id: Seongmock.go-file-undercursor
+    uuid: 7f350789-e65a-4f15-a048-378d63eb754e
+  - id: tamasfe.even-better-toml
+    uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
+  - id: voorjaar.windicss-intellisense
+    uuid: 5fac4dfa-b0ff-4af9-b891-a1d5564ec49c
+enabled:
+  - id: Catppuccin.catppuccin-vsc
+    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
+  - id: emmanuelbeziat.vscode-great-icons
+    uuid: 829a192d-496c-44ac-87f3-0a84ce36a853
+  - id: ms-toolsai.jupyter-keymap
+    uuid: 9f6dc8db-620c-4844-b8c5-e74914f1be27
+  - id: ms-vscode-remote.remote-containers
+    uuid: 93ce222b-5f6f-49b7-9ab1-a0463c6238df
+  - id: ms-vscode-remote.remote-ssh
+    uuid: 607fd052-be03-4363-b657-2bd62b83d28a
+  - id: ms-vscode-remote.remote-ssh-edit
+    uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
+  - id: ms-vscode.remote-explorer
+    uuid: 11858313-52cc-4e57-b3e4-d7b65281e34b
+  - id: piousdeer.adwaita-theme
+    uuid: 93fbc635-4a9a-4ff1-88ba-bf017484c602
+  - id: SimonSiefke.svg-preview
+    uuid: 51cd7dfb-14fa-4fcc-aa42-16add9281456
+  - id: vscodevim.vim
+    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
+  - id: zokugun.cron-tasks
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

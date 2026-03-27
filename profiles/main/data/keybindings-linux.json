@@ -1,0 +1,311 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "key": "ctrl+`",
+    "when": "!terminalFocus"
+  },
+  {
+    "command": "workbench.action.toggleMaximizedPanel",
+    "key": "ctrl+alt+m",
+  },
+  {
+    "command": "workbench.action.navigateUp",
+    "key": "ctrl+alt+up"
+  },
+  {
+    "command": "workbench.action.navigateDown",
+    "key": "ctrl+alt+down"
+  },
+  {
+    "command": "workbench.action.navigateLeft",
+    "key": "ctrl+alt+left"
+  },
+  {
+    "command": "workbench.action.navigateRight",
+    "key": "ctrl+alt+right"
+  },
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+b"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+k v",
+    "command": "-markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+      "key": "ctrl+tab",
+      "command": "workbench.action.terminal.focusNext",
+      "when": "terminalFocus && !terminalEditorFocus"
+  },
+  {
+      "key": "ctrl+shift+tab",
+      "command": "workbench.action.terminal.focusPrevious",
+      "when": "terminalFocus && !terminalEditorFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "python.selectAndRunTestMethod",
+    "when": "editorTextFocus && editorLangId == 'python'"
+  },
+  {
+    "key": "ctrl+k ctrl+l",
+    "command": "-editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+i",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "editor.debug.action.showDebugHover",
+    "when": "editorTextFocus && inDebugMode"
+  },
+  {
+    "key": "ctrl+k ctrl+i",
+    "command": "-editor.debug.action.showDebugHover",
+    "when": "editorTextFocus && inDebugMode"
+  },
+  {
+    "key": "alt+s alt+left",
+    "command": "shiftArgumentLeft",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+s left",
+    "command": "-shiftArgumentLeft",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+s alt+right",
+    "command": "shiftArgumentRight",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+s right",
+    "command": "-shiftArgumentRight",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "go.test.cursor",
+    "when": "editorTextFocus && editorLangId == 'go'"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "go.test.package",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "workbench.action.terminal.rename",
+    "key": "ctrl+shift+r",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+z",
+    "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl+k z",
+    "command": "-workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+l",
+    "command": "workbench.action.toggleEditorWidths"
+  },
+  {
+    "key": "ctrl+alt+,",
+    "command": "workbench.action.decreaseViewSize"
+  },
+  {
+    "key": "ctrl+alt+.",
+    "command": "workbench.action.increaseViewSize"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "testing.runAtCursor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+; c",
+    "command": "-testing.runAtCursor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+left",
+    "command": "workbench.action.positionPanelLeft"
+  },
+  {
+    "key": "ctrl+k ctrl+right",
+    "command": "workbench.action.positionPanelRight"
+  },
+  {
+    "key": "ctrl+k ctrl+down",
+    "command": "workbench.action.positionPanelBottom"
+  },
+  {
+    "key": "ctrl+shift+1",
+    "command": "openInTerminal"
+  },
+  {
+    "key": "ctrl+alt+`",
+    "command": "workbench.action.terminal.newWithProfile"
+  },
+  {
+    "key": "alt+1",
+    "command": "workbench.action.terminal.focusAtIndex1",
+    "when": "terminalFocus && !terminalEditorFocus"
+  },
+  {
+    "key": "alt+2",
+    "command": "workbench.action.terminal.focusAtIndex2",
+    "when": "terminalFocus && !terminalEditorFocus"
+  },
+  {
+    "key": "alt+3",
+    "command": "workbench.action.terminal.focusAtIndex3",
+    "when": "terminalFocus && !terminalEditorFocus"
+  },
+  {
+    "key": "alt+4",
+    "command": "workbench.action.terminal.focusAtIndex4",
+    "when": "terminalFocus && !terminalEditorFocus"
+  },
+  {
+    "key": "alt+5",
+    "command": "workbench.action.terminal.focusAtIndex5",
+    "when": "terminalFocus && !terminalEditorFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+s",
+    "command": "git.stageSelectedRanges",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "ctrl+k ctrl+alt+s",
+    "command": "-git.stageSelectedRanges",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-vscode-neovim.delete-word-left-cmdline",
+    "when": "neovim.mode == 'cmdline_normal'"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert && neovim.recording && neovim.mode == 'insert'"
+  },
+  {
+    "key": "alt+down",
+    "command": "workbench.action.terminal.navigationModeFocusNext",
+    "when": "accessibilityModeEnabled && terminalA11yTreeFocus && terminalProcessSupported || accessibilityModeEnabled && terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "-workbench.action.terminal.navigationModeFocusNext",
+    "when": "accessibilityModeEnabled && terminalA11yTreeFocus && terminalProcessSupported || accessibilityModeEnabled && terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "\u001a"
+    },
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+[Backquote]",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+[Backquote]",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  },
+  {
+    "key": "ctrl+k ctrl+,",
+    "command": "macros.quickOpenWithWordUnderCursor",
+    "args": [
+      "quickOpenWithWordUnderCursor"
+    ]
+  },
+  {
+    "key": "alt+]",
+    "command": "-editor.action.inlineSuggest.showNext",
+    "when": "inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "alt+]",
+    "command": "-editor.action.accessibleViewNext",
+    "when": "accessibleViewIsShown && accessibleViewSupportsNavigation"
+  },
+  {
+    "key": "alt+]",
+    "command": "editor.action.inlineSuggest.showNext"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-list.focusPageDown",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-extension.vim_ctrl+d",
+    "when": "editorTextFocus && vim.active && vim.use<C-d> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "-extension.vim_ctrl+i",
+    "when": "editorTextFocus && vim.active && vim.use<C-i> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+alt+e",
+    "command": "continue.continueGUIView.focus"
+  }
+]
