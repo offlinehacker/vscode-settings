@@ -1,42 +1,19 @@
-builtin:
-  disabled:
-    - ms-vscode.js-debug
-    - ms-vscode.vscode-js-profile-table
-    - vscode.configuration-editing
-    - vscode.css-language-features
-    - vscode.debug-auto-launch
-    - vscode.debug-server-ready
-    - vscode.emmet
-    - vscode.extension-editing
-    - vscode.git
-    - vscode.git-base
-    - vscode.github
-    - vscode.grunt
-    - vscode.gulp
-    - vscode.html-language-features
-    - vscode.ipynb
-    - vscode.jake
-    - vscode.json-language-features
-    - vscode.markdown-language-features
-    - vscode.markdown-math
-    - vscode.merge-conflict
-    - vscode.mermaid-chat-features
-    - vscode.npm
-    - vscode.php-language-features
-    - vscode.references-view
-    - vscode.search-result
-    - vscode.terminal-suggest
-    - vscode.tunnel-forwarding
-    - vscode.typescript-language-features
-disabled:
+disabled: []
+enabled:
   - id: antfu.vite
     uuid: b22eea9f-5a30-43a2-8a59-3d3707869cf8
+  - id: Catppuccin.catppuccin-vsc
+    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
   - id: EditorConfig.EditorConfig
-    uuid: 00000000-0000-0000-0000-000000000000
+    uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
+  - id: emmanuelbeziat.vscode-great-icons
+    uuid: 829a192d-496c-44ac-87f3-0a84ce36a853
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: jeanp413.open-remote-ssh
+    uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
   - id: ms-python.debugpy
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
   - id: ms-python.python
@@ -45,21 +22,16 @@ disabled:
     uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
   - id: mushan.vscode-paste-image
     uuid: ffaf4ec8-f001-4f02-b671-705ecf079cde
+  - id: piousdeer.adwaita-theme
+    uuid: 93fbc635-4a9a-4ff1-88ba-bf017484c602
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: reduckted.vscode-gitweblinks
     uuid: fae95695-f600-489f-afdf-69190f660249
+  - id: sst-dev.opencode
+    uuid: 90e5fe3f-5625-4338-82e4-0ca57e7d0af9
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
-enabled:
-  - id: Catppuccin.catppuccin-vsc
-    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
-  - id: emmanuelbeziat.vscode-great-icons
-    uuid: 829a192d-496c-44ac-87f3-0a84ce36a853
-  - id: jeanp413.open-remote-ssh
-    uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
-  - id: piousdeer.adwaita-theme
-    uuid: 93fbc635-4a9a-4ff1-88ba-bf017484c602
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: zokugun.cron-tasks
