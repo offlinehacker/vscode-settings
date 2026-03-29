@@ -130,13 +130,13 @@
     "reduckted.vscode-gitweblinks"
   ],
   "terminal.integrated.commandsToSkipShell": [
-    "workbench.action.toggleSidebarVisibility"
+    "workbench.action.toggleSidebarVisibility",
     "workbench.action.openEditorAtIndex1",
     "workbench.action.openEditorAtIndex2",
     "workbench.action.openEditorAtIndex3",
     "workbench.action.openEditorAtIndex4",
     "workbench.action.openEditorAtIndex5",
-    "workbench.action.moveEditorToPreviousGroup"
+    "workbench.action.moveEditorToPreviousGroup",
     "workbench.action.moveEditorToNextGroup",
     "workbench.action.pinEditor",
     "workbench.action.unpinEditor",
@@ -168,6 +168,7 @@
   "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
   "workbench.preferredLightColorTheme": "Adwaita Light",
   "workbench.startupEditor": "none",
+  "workbench.panel.defaultLocation": "right",
   "zenMode.fullScreen": true,
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": true,
