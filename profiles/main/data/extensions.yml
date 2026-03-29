@@ -51,8 +51,6 @@ disabled:
     uuid: fae95695-f600-489f-afdf-69190f660249
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
-  - id: voorjaar.windicss-intellisense
-    uuid: 5fac4dfa-b0ff-4af9-b891-a1d5564ec49c
 enabled:
   - id: Catppuccin.catppuccin-vsc
     uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
