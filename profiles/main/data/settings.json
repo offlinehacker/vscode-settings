@@ -124,6 +124,7 @@
     "redhat.vscode-yaml",
     "reduckted.vscode-gitweblinks"
   ],
+  "remote.SSH.useExecServer": false,
   "dev.containers.defaultExtensions": [
     "EditorConfig.EditorConfig",
     "redhat.vscode-yaml",
@@ -153,6 +154,7 @@
   "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.showExitAlert": false,
   "terminal.integrated.suggest.enabled": false,
+  "terminal.integrated.gpuAcceleration": "on",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "update.mode": "none",
   "window.confirmBeforeClose": "always",
