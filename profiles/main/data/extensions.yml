@@ -20,7 +20,7 @@ builtin:
     - vscode.markdown-language-features
     - vscode.markdown-math
     - vscode.merge-conflict
-    - vscode.mermaid-chat-features
+    - vscode.mermaid-markdown-features
     - vscode.microsoft-authentication
     - vscode.npm
     - vscode.php-language-features
@@ -33,7 +33,7 @@ disabled:
   - id: antfu.vite
     uuid: b22eea9f-5a30-43a2-8a59-3d3707869cf8
   - id: EditorConfig.EditorConfig
-    uuid: 00000000-0000-0000-0000-000000000000
+    uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: golang.go
@@ -47,11 +47,9 @@ disabled:
   - id: mushan.vscode-paste-image
     uuid: ffaf4ec8-f001-4f02-b671-705ecf079cde
   - id: redhat.vscode-yaml
-    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: reduckted.vscode-gitweblinks
     uuid: fae95695-f600-489f-afdf-69190f660249
-  - id: sst-dev.opencode
-    uuid: 90e5fe3f-5625-4338-82e4-0ca57e7d0af9
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
 enabled:
