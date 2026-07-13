@@ -47,12 +47,14 @@ disabled:
   - id: mushan.vscode-paste-image
     uuid: ffaf4ec8-f001-4f02-b671-705ecf079cde
   - id: redhat.vscode-yaml
-    uuid: 00000000-0000-0000-0000-000000000000
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: reduckted.vscode-gitweblinks
     uuid: fae95695-f600-489f-afdf-69190f660249
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
 enabled:
+  - id: antfu.browse-lite
+    uuid: 61ce9ab3-f230-47ea-8cdc-2b5eb25f3ae2
   - id: Catppuccin.catppuccin-vsc
     uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
   - id: emmanuelbeziat.vscode-great-icons

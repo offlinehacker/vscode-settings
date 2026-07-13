@@ -226,4 +226,16 @@
     "https://schemastore.azurewebsites.net/": true,
     "https://www.schemastore.org/": true
   },
+  "remote.SSH.enableAgentForwarding": false,
+  "terminal.integrated.enablePersistentSessions": true,
+  "terminal.integrated.profiles.linux": {
+    "opencode": {
+      "path": ["/home/offlinehq/.local/bin/tmux-opencode-attach"],
+      "args": ["${workspaceFolderBasename}"]
+    }
+  },
+  "tmux-integrated.closeStrayShellsOnActivation": false,
+  "tmux-integrated.terminalLocation": "editor",
+  "tmux-integrated.pinTerminals": true,
+  "terminal.integrated.tabs.title": "${sequence}"
 }
