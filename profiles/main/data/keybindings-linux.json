@@ -339,17 +339,17 @@
     "when": "!config.tmux-integrated.syncWindowNames"
   },
   {
-    "key": "ctrl+shift+o ctrl+shift+c",
+    "key": "ctrl+shift+o ctrl+shift+o",
     "command": "tmux-integrated.newTerminal",
     "args": {
       "command": "opencode"
     }
   },
   {
-    "key": "ctrl+shift+c ctrl+shift+c",
+    "key": "ctrl+shift+o ctrl+shift+c",
     "command": "tmux-integrated.newTerminal",
     "args": {
-      "command": "cursor-agent"
+      "command": "clear; cursor-agent"
     }
   }
 ]
