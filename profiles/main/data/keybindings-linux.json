@@ -337,5 +337,12 @@
       ]                                                                                                                                                                                              
     }, 
     "when": "!config.tmux-integrated.syncWindowNames"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "tmux-integrated.newTerminal",
+    "args": {
+      "command": "opencode attach http://localhost:4096"
+    }
   }
 ]
